@@ -373,10 +373,12 @@
     }
 
     .contact-app-form {
-      width: 300px;
+      width: 90%;
     }
 
     .contact-screen {
+      margin-top: 10%;
       width: 95%;
+      margin-left: 3%;
     }
    }
