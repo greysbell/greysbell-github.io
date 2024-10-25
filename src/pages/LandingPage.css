@@ -491,6 +491,18 @@
   }
 
   @media (max-width: 480px) {
+    .footer {
+      transform: translateY(-30%);
+    }
+
+    .hero-text-container {
+      padding-top: 10%;
+    }
+
+    .alert-popup {
+      width: 80%;
+    }
+
     .name {
       top: -40px;
     }
@@ -518,6 +530,7 @@
 
     .flip-card {
       margin: 15px 0px;
+      padding-top: 50px;
     }
 
     .hero-subtext {
