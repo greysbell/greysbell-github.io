@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.a87a4c40.css",
-    "main.js": "/static/js/main.b164fcdd.js",
-    "static/media/background-image.jpg": "/static/media/background-image.0d0402b37f455c1dd0e7.jpg",
-    "static/media/Greyston_Bellino_CV.pdf": "/static/media/Greyston_Bellino_CV.6381b1341b9413d0db28.pdf",
-    "static/media/avatar.jpeg": "/static/media/avatar.15f447a7816ba98a5f36.jpeg",
-    "static/media/linkedIn-logo.png": "/static/media/linkedIn-logo.63b96b9ea7fdfd7a5ee0.png",
-    "index.html": "/index.html",
-    "main.a87a4c40.css.map": "/static/css/main.a87a4c40.css.map",
-    "main.b164fcdd.js.map": "/static/js/main.b164fcdd.js.map"
+    "main.css": "/greysbell-github.io/static/css/main.8a4083aa.css",
+    "main.js": "/greysbell-github.io/static/js/main.42848b02.js",
+    "static/media/background-image.jpg": "/greysbell-github.io/static/media/background-image.0d0402b37f455c1dd0e7.jpg",
+    "static/media/Greyston_Bellino_CV.pdf": "/greysbell-github.io/static/media/Greyston_Bellino_CV.6381b1341b9413d0db28.pdf",
+    "static/media/avatar.jpeg": "/greysbell-github.io/static/media/avatar.15f447a7816ba98a5f36.jpeg",
+    "static/media/linkedIn-logo.png": "/greysbell-github.io/static/media/linkedIn-logo.63b96b9ea7fdfd7a5ee0.png",
+    "index.html": "/greysbell-github.io/index.html",
+    "main.8a4083aa.css.map": "/greysbell-github.io/static/css/main.8a4083aa.css.map",
+    "main.42848b02.js.map": "/greysbell-github.io/static/js/main.42848b02.js.map"
   },
   "entrypoints": [
-    "static/css/main.a87a4c40.css",
-    "static/js/main.b164fcdd.js"
+    "static/css/main.8a4083aa.css",
+    "static/js/main.42848b02.js"
   ]
 }
