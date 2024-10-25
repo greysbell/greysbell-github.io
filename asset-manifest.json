@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2857f77e.css",
-    "main.js": "/static/js/main.1514de49.js",
+    "main.css": "/static/css/main.cb865755.css",
+    "main.js": "/static/js/main.1b32796b.js",
     "static/media/background-image.jpg": "/static/media/background-image.0d0402b37f455c1dd0e7.jpg",
     "static/media/Greyston_Bellino_CV.pdf": "/static/media/Greyston_Bellino_CV.6381b1341b9413d0db28.pdf",
     "static/media/avatar.jpeg": "/static/media/avatar.15f447a7816ba98a5f36.jpeg",
@@ -10,7 +10,7 @@
     "static/media/line.svg": "/static/media/line.f9621a3bafc9c024b301.svg"
   },
   "entrypoints": [
-    "static/css/main.2857f77e.css",
-    "static/js/main.1514de49.js"
+    "static/css/main.cb865755.css",
+    "static/js/main.1b32796b.js"
   ]
 }
