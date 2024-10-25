@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.2b4e5e9f.css",
-    "main.js": "/website/static/js/main.0cc323d6.js",
-    "static/media/background-image.jpg": "/website/static/media/background-image.0d0402b37f455c1dd0e7.jpg",
-    "static/media/Greyston_Bellino_CV.pdf": "/website/static/media/Greyston_Bellino_CV.6381b1341b9413d0db28.pdf",
-    "static/media/avatar.jpeg": "/website/static/media/avatar.15f447a7816ba98a5f36.jpeg",
-    "static/media/linkedIn-logo.png": "/website/static/media/linkedIn-logo.63b96b9ea7fdfd7a5ee0.png",
-    "index.html": "/website/index.html"
+    "main.css": "/static/css/main.f57ddff8.css",
+    "main.js": "/static/js/main.f34680b3.js",
+    "static/media/background-image.jpg": "/static/media/background-image.0d0402b37f455c1dd0e7.jpg",
+    "static/media/Greyston_Bellino_CV.pdf": "/static/media/Greyston_Bellino_CV.6381b1341b9413d0db28.pdf",
+    "static/media/avatar.jpeg": "/static/media/avatar.15f447a7816ba98a5f36.jpeg",
+    "static/media/linkedIn-logo.png": "/static/media/linkedIn-logo.63b96b9ea7fdfd7a5ee0.png",
+    "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.2b4e5e9f.css",
-    "static/js/main.0cc323d6.js"
+    "static/css/main.f57ddff8.css",
+    "static/js/main.f34680b3.js"
   ]
 }
