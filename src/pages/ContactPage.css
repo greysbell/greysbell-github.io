@@ -211,7 +211,7 @@
     }
   }
   
-  /* Button container (remains fixed) */
+
   .contact-btn {
     --border: 1px !important;
     width: 50px;
@@ -224,7 +224,7 @@
     letter-spacing: 1px;
     font-weight: 300;
     outline: none;
-    position: relative; /* Allows the airplane to be positioned absolutely */
+    position: relative; 
   }
   
   .contact-btn-container {
@@ -233,26 +233,25 @@
   }
   
   .contact-btn img {
-    position: absolute; /* The airplane is absolutely positioned within the button */
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    margin: auto; /* Centers the airplane within the button */
-    width: 30px; /* Adjust width if needed */
-    height: 30px; /* Adjust height if needed */
+    margin: auto; 
+    width: 30px;
+    height: 30px; 
   }
   
-  /* Airplane icon animation */
+
   .contact-airplane {
     transition: transform 0.3s linear;
   }
   
   .contact-animation {
-    transform: translate(100px, -100px); /* Moves the airplane icon only */
+    transform: translate(100px, -100px); 
   }
   
-  /* Background and border */
   .contact-btn-bg {
     height: 32px;
     width: 32px;
@@ -268,7 +267,7 @@
     border: 1px solid #fff;
   }
   
-  /* Button surrounding circle effect */
+ 
   .contact-btn-around {
     width: 101px;
     height: 101px;
@@ -298,12 +297,12 @@
   }
   
   .contact-animation {
-    animation: flyAway 1.5s forwards; /* Move airplane */
+    animation: flyAway 1.5s forwards; 
   }
 
   .contact-app-form-group {
-    position: relative; /* Needed for positioning the error message */
-    margin-bottom: 30px; /* Increased to provide space for the error */
+    position: relative; 
+    margin-bottom: 30px;
   }
   
   .contact-app-form-control {
@@ -316,7 +315,7 @@
     font-size: 14px;
     outline: none;
     transition: border-color .2s;
-    position: relative; /* Maintain relative position for the error to overlay */
+    position: relative; 
   }
   
   .contact-app-form-control::placeholder {

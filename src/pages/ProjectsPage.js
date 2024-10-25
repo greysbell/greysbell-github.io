@@ -4,17 +4,17 @@ import logo from '../images/logo.png';
 import './ProjectsPage.css';
 
 const Projects = () => {
-  const [openModal, setOpenModal] = useState(null); // Tracks which modal is open
+  const [openModal, setOpenModal] = useState(null);
 
   const handleOpenModal = (modalId) => {
-    setOpenModal(modalId); // Set the modal to open
+    setOpenModal(modalId); 
   };
 
   const handleCloseModal = () => {
-    setOpenModal(null); // Close the modal
+    setOpenModal(null);
   };
 
-  // Project data object
+
   const projectData = [
     {
       id: 1,

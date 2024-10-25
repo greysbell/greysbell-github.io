@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../images/logo.png';
-import './Experience.css'; // Ensure this CSS file is linked
+import './Experience.css'; 
 
 const experiences = [
   {
@@ -68,7 +68,7 @@ const ExperiencePage = () => {
         ))}
       </div>
 
-      {/* Skills Section */}
+     
       <div  style={{width:"40%"}}className="section-wrapper clearfix">
         <h3 className="section-title">Skills</h3>
         <ul>
@@ -78,7 +78,7 @@ const ExperiencePage = () => {
         </ul>
       </div>
 
-      {/* Hobbies Section */}
+   
       <div className="section-wrapper clearfix">
         <h3 className="section-title">Hobbies</h3>
         {hobbies.map((hobby, index) => (

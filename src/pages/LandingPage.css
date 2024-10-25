@@ -11,7 +11,6 @@
     margin-top: 10px;
   }
   
-  /* Projects Section */
   .projects-section {
     padding: 50px 20px;
     text-align: center;
@@ -38,7 +37,6 @@
     text-decoration: none;
   }
   
-  /* Contact Section */
   .contact-section {
     padding: 50px 20px;
     text-align: center;
@@ -75,18 +73,16 @@
     color: #000;
   }
   
-  /* Footer */
   .footer {
     padding: 20px;
     text-align: center;
     color: #888;
   }
   
-  /* Hero Section Styling */
   .hero-section {
     display: flex;
     align-items: center;
-    height: calc(100vh - 100px); /* Full screen height minus navbar */
+    height: calc(100vh - 100px);
     padding: 0 50px;
   }
   
@@ -97,33 +93,33 @@
   }
   
   .hero-text-container {
-    max-width: 600px; /* Limit the width of the text */
+    max-width: 600px; 
   }
   
   .hero-text {
-    font-size: 5rem; /* Large text for "Aim to Inspire" */
+    font-size: 5rem;
     font-weight: bold;
-    color: #fff; /* White text */
+    color: #fff;
     line-height: 1.1;
   }
   
   .hero-subtext {
     font-size: 1.5rem;
-    color: #f4e4e4; /* Slightly lighter color for the subtext */
+    color: #ffffff;
     margin-top: 10px;
   }
   
-  /* Styling the LinkedIn logo */
+ 
   .linkedin-logo {
-    width: 20px; /* Adjust the size to match the text height */
-    margin-left: 5px; /* Add space between the text and logo */
-    vertical-align: middle; /* Align the logo with the middle of the text */
-    border-radius: 50%; /* Ensures the logo is circular */
+    width: 20px;
+    margin-left: 5px;
+    vertical-align: middle;
+    border-radius: 50%; 
     margin-bottom: 2px;
   }
   
   .linkedin-logo:hover {
-    transform: scale(1.1); /* Slight zoom on hover */
+    transform: scale(1.1); 
   }
   
   .card {
@@ -228,7 +224,7 @@
     background: grey;
   }
   
-  /* Info and skills */
+ 
   .ds-info {
     position: absolute;
     margin: auto;
@@ -279,7 +275,7 @@
     color: crimson;
   }
   
-  /* Skills section */
+
   .skill h6 {
     font-weight: 400;
     font-size: 12px;
@@ -293,7 +289,7 @@
     font-size: 14px;
   }
   
-  /* Skills bar */
+  
   .bar {
     height: 5px;
     background: crimson;
@@ -338,13 +334,13 @@
     text-align: center;
   }
   
-  /* Flip Card Section */
+ 
   .flip-card {
     background-color: transparent;
     width: 250px;
     height: 400px;
     margin-left:300px;
-    perspective: 1000px; /* Create perspective for 3D effect */
+    perspective: 1000px;
     margin-top: 100px;
     border-radius: 10px;
     box-shadow: 0 10px 25px 5px rgba(122, 71, 71, 0.2);
@@ -355,23 +351,23 @@
     width: 100%;
     height: 100%;
     transition: transform 0.8s;
-    transform-style: preserve-3d; /* Allow 3D effect */
+    transform-style: preserve-3d; 
   }
   
   .flipped .flip-card-inner {
-    transform: rotateY(180deg); /* Flip the card */
+    transform: rotateY(180deg); 
   }
   
   .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
-    backface-visibility: hidden; /* Hide the back side when not facing the screen */
+    backface-visibility: hidden;
     border-radius: 10px;
     box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.2);
   }
   
-  /* Front of the Card */
+ 
   .flip-card-front {
     justify-content: space-between;
     background-color: #151515;
@@ -384,7 +380,7 @@
     text-align: center;
   }
   
-  /* Back of the Card */
+ 
   .flip-card-back {
     background-color: grey;
     color: white;
@@ -399,7 +395,6 @@
     font-size: 13px !important;
   }
 
-/* Glassmorphism Alert Popup */
 .alert-popup {
   position: fixed;
   top: 50%;
@@ -443,9 +438,6 @@
   background-color: #ff4040;
 }
 
-
-  
-  /* Animations */
   @keyframes fadeInMove {
     0% {
       opacity: 0;

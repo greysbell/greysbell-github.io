@@ -1,9 +1,8 @@
-/* Import VT323 Font */
+
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
 
 
-/* General Styles */
 body {
   margin: 0;
   padding: 0;
@@ -30,25 +29,25 @@ body {
 }
 
 .nav-links {
-  list-style-type: none; /* Remove bullet points */
-  display: flex; /* Display items in a row */
-  gap: 50px; /* Space between links */
+  list-style-type: none;
+  display: flex; 
+  gap: 50px;
   margin-right: 150px;
 }
 
 .nav-links .active {
-  color: #d94f5c; /* Red color */
+  color: #d94f5c; 
   background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEi%0D%0AIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhs%0D%0AaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB3aWR0%0D%0AaD0iMzkwcHgiIGhlaWdodD0iNTBweCIgdmlld0JveD0iMCAwIDM5MCA1MCIgZW5hYmxlLWJhY2tn%0D%0Acm91bmQ9Im5ldyAwIDAgMzkwIDUwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHBhdGggZmlsbD0i%0D%0Abm9uZSIgc3Ryb2tlPSIjZDk0ZjVjIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLW1pdGVybGlt%0D%0AaXQ9IjEwIiBkPSJNMCw0Ny41ODVjMCwwLDk3LjUsMCwxMzAsMAoJYzEzLjc1LDAsMjguNzQtMzgu%0D%0ANzc4LDQ2LjE2OC0xOS40MTZDMTkyLjY2OSw0Ni41LDI0My42MDMsNDcuNTg1LDI2MCw0Ny41ODVj%0D%0AMzEuODIxLDAsMTMwLDAsMTMwLDAiLz4KPC9zdmc+Cg==");
 }
 
 
 .menu {
   display: flex;
-  align-items: center; /* Center items vertically */
+  align-items: center; 
   justify-content: space-between;
-  position: fixed; /* Make it fixed to the top */
-  width: 100%; /* Full width */
-  z-index: 10; /* Ensure it's above other content */
+  position: fixed; 
+  width: 100%;
+  z-index: 10; 
   padding-bottom: 0px;
 }
 
@@ -88,7 +87,7 @@ body {
 .navbar-logo {
   width: 100px; 
   height: auto;
-  object-fit: contain; /* Ensure the image scales within its box */
+  object-fit: contain;
   margin-left: 50px;
 }
 
@@ -100,7 +99,6 @@ body {
   z-index: 2;
   letter-spacing: 2px;
 
-  /* Bright things in dark environments usually cast that light, giving off a glow */
   filter: drop-shadow(0 1px 3px);
 }
 
@@ -111,12 +109,12 @@ body {
 }
 
 button {
-  --border: 3px;    /* reduced border width */
-  --slant: 0.4em;   /* reduced slanted corners */
-  --color: #ffffff; /* keep color white */
+  --border: 3px;  
+  --slant: 0.4em;   
+  --color: #ffffff; 
   
-  font-size: 18px; /* reduced font size */
-  padding: 0.3em 1em; /* reduced padding */
+  font-size: 18px;
+  padding: 0.3em 1em;
   border: none;
   cursor: pointer;
   font-weight: bold;

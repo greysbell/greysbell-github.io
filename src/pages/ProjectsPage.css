@@ -191,7 +191,7 @@
     box-shadow: 0 1px 15px rgba(1, 1, 1, 0.2);
   }
   
-  /* Modal container */
+
   .modal-container {
     position: fixed;
     top: 0;
@@ -202,11 +202,10 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.5); /* Darken background behind the modal */
+    background: rgba(0, 0, 0, 0.5); 
     transition: opacity 0.3s ease;
   }
   
-  /* Modal with glassmorphism effect */
   .modal {
     background: rgba(255, 255, 255, 0.2);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -223,13 +222,13 @@
     overflow: hidden;
   }
   
-  /* Modal title */
+
   .modal__title {
     font-size: 2rem;
     margin-bottom: 2rem;
   }
   
-  /* Modal text */
+
   .modal__text {
     padding: 0 4rem;
     font-size: 1.6rem;
@@ -238,7 +237,7 @@
     color: white;
   }
   
-  /* Modal close button */
+
   .modal__btn-close {
     position: absolute;
     top: 1.5rem;
@@ -254,7 +253,6 @@
     color: crimson;
   }
   
-  /* Modal button */
   .modal__btn {
     margin-top: 4rem;
     padding: 1rem 2rem;

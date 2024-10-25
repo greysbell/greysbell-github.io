@@ -8,24 +8,26 @@ import './LandingPage.css';
 
 function LandingPage() {
   const [isFlipped, setIsFlipped] = useState(false);
-  const [showAlert, setShowAlert] = useState(true); // Show alert by default on page load
+  const [showAlert, setShowAlert] = useState(false);
 
   const handleCardClick = () => {
     setIsFlipped(!isFlipped);
   };
 
   const closeAlert = () => {
-    setShowAlert(false); // Close the alert when button is clicked
+    setShowAlert(false);
+    sessionStorage.setItem('alertShown', 'true');
   };
 
   useEffect(() => {
-    // Automatically display the alert when the component is first loaded
-    setShowAlert(true);
+    const alertShown = sessionStorage.getItem('alertShown');
+    if (!alertShown) {
+      setShowAlert(true);
+    }
   }, []);
 
   return (
     <div className="landing-page">
-  
       {showAlert && (
         <div className="alert-popup">
           <div className="alert-content">
@@ -47,9 +49,8 @@ function LandingPage() {
         </nav>
       </header>
 
-    
       <section className="hero-section">
-        <div className="hero-content">
+      <div className="hero-content">
           <div className="hero-text-container">
             <h2 className="hero glitch layers" data-text="Aim to Inspire."><span>Aim to Inspire.</span></h2>
             <p className="hero-subtext">
@@ -57,7 +58,6 @@ function LandingPage() {
             </p>
           </div>
 
-          {/* Flip Card */}
           <div className={`flip-card ${isFlipped ? 'flipped' : ''}`} onClick={handleCardClick}>
             <div className="flip-card-inner">
               <div className="flip-card-front">
