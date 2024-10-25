@@ -366,3 +366,17 @@
       opacity: 0; 
     }
   }
+
+  @media (max-width: 480px) {
+    .contact-container {
+      width: 90%;
+    }
+
+    .contact-app-form {
+      width: 300px;
+    }
+
+    .contact-screen {
+      width: 95%;
+    }
+   }

@@ -606,3 +606,14 @@
     animation: paths 5s step-end infinite, opacity 5s step-end infinite,
       font 7s step-end infinite, movement 8s step-end infinite;
   }
+
+  @media (max-width: 480px) {
+    .wrapper {
+      width: 90%;
+      margin: 90px 10px 30px 20px;
+    }
+    
+    .experience p {
+      font-size: 15px;
+    }
+   }

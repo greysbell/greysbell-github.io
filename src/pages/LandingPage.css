@@ -347,6 +347,7 @@
   }
   
   .flip-card-inner {
+    transform-origin: center;
     position: relative;
     width: 100%;
     height: 100%;
@@ -487,5 +488,40 @@
   .following {
     color: white;
     background: crimson;
+  }
+
+  @media (max-width: 480px) {
+    .name {
+      top: -40px;
+    }
+
+    .button {
+      top: 30px;
+    }
+
+    .learn-more {
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    .flip-card-inner{
+      transform-origin: center;
+    }
+
+    .flip-card-back {
+      padding:0;
+    }
+
+    .flip-card-front {
+      padding:0;
+    }
+
+    .flip-card {
+      margin: 15px 0px;
+    }
+
+    .hero-subtext {
+      font-size: small;
+    }
   }
   
