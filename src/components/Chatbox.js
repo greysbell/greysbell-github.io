@@ -42,7 +42,7 @@ const Chatbox = () => {
     setMessage(''); 
   
     try {
-      const response = await fetch('https://server-for-website.onrender.com/chat', {
+      const response = await fetch('https://server-for-website.onrender.com/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
