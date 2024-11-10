@@ -617,3 +617,38 @@
       font-size: 15px;
     }
    }
+
+  @media (min-width: 1700px) {
+    .experience p {
+      font-size: 20px;
+    }
+
+    .experience-title {
+      font-size: 25px;
+    }
+
+    .experience .time {
+      font-size: 25px;
+    }
+
+    .experience h3.section-title {
+      font-size: 30px;
+    }
+
+    .experience li {
+      font-size: 20px;
+    }
+
+    .skill-percentage::before {
+      height: 8px;
+    }
+
+    .skill-percentage::after {
+      height: 8px;
+    }
+    
+    .wrapper {
+        box-shadow: 0 8px 32px 0 rgba(255, 0, 0, 1);
+    }
+  }
+  

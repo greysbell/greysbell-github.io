@@ -74,15 +74,11 @@ const Projects = () => {
             <div className="modal">
               <button className="modal__btn-close" onClick={handleCloseModal}>&times;</button>
               <h1 className="modal__title">{project.title}</h1>
-              <p style={{fontSize:"20px"}}>{project.modalDescription}</p>
+              <p>{project.modalDescription}</p>
             </div>
           </div>
         )
       ))}
-
-<footer className="footer">
-        <p>© 2024 My Portfolio | Designed by Greyston</p>
-      </footer>
     </div>
   );
 };

@@ -4,6 +4,7 @@ import avatar from '../images/avatar.jpeg';
 import linkedIn from '../images/linkedIn-logo.png';
 import cv from '../assets/Greyston_Bellino_CV.pdf';
 import { NavLink } from 'react-router-dom';
+import Chatbox from '../components/Chatbox';
 import './LandingPage.css';
 
 function LandingPage() {
@@ -108,10 +109,7 @@ function LandingPage() {
           </div>
         </div>
       </section>
-
-      <footer className="footer">
-        <p>© 2024 My Portfolio | Designed by Greyston</p>
-      </footer>
+      <Chatbox></Chatbox>
     </div>
   );
 }

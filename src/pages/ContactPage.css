@@ -3,6 +3,7 @@
     background-size: cover;
     min-height: 100vh;
     font-family: 'Oswald', sans-serif;
+    background-attachment: fixed;
   }
 
 .contact-background {
@@ -228,7 +229,6 @@
   }
   
   .contact-btn-container {
-    padding-top: 20px;
     display: inline-block;
   }
   
@@ -368,8 +368,33 @@
   }
 
   @media (max-width: 480px) {
+    .error-text {
+      font-size: 10px;
+      bottom: -15px;
+    }
+
+    .contact-btn {
+      width: 30px;
+      height: 30px;
+    }
+
+
+    .contact-btn img {
+      width: 15px;
+      height: 15px;
+    }
+      
+
+    .contact-app-info {
+      font-size: 18px;
+    }
+
     .contact-container {
       width: 90%;
+    }
+
+    .contact-app-form-group {
+      margin-bottom: 15px;
     }
 
     .contact-app-form {
@@ -377,8 +402,62 @@
     }
 
     .contact-screen {
-      margin-top: 10%;
+      margin-top: 25%;
       width: 95%;
       margin-left: 3%;
+    }
+   }
+
+   @media (min-width: 1700px) {
+    .error-text {
+      font-size: 25px;
+      bottom: -40px;
+    }
+
+    .contact-btn {
+      width: 2.5vw;
+      height: 2.5vw;
+    }
+
+
+    .contact-btn img {
+      width: 1.5vw;
+      height: 1.5vw;
+    }
+      
+
+    .contact-app-info {
+      font-size: 1.5vw;
+      margin-top: 20vh;
+    }
+
+    .contact-container {
+      width: 110vw;
+    }
+
+    .contact-app-form-group {
+      margin-bottom: 50px;
+    }
+
+    .contact-app-form {
+      width: 25vw;
+      transform: translateX(-4vw);
+    }
+
+    .contact-app-form-control {
+      font-size: 20px;
+    }
+
+    .contact-screen {
+      height: 60vh;
+      margin-top: 25%;
+    }
+
+    .contact-app-title {
+      font-size: 2.5vw;
+    }
+
+    .contact-app-title:after{
+      width: 2.6vw;
     }
    }

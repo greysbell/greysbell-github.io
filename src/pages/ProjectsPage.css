@@ -3,6 +3,11 @@
     background-size: cover;
     min-height: 100vh;
     font-family: 'Oswald', sans-serif;
+    background-attachment: fixed;
+  }
+
+  .modal-container p {
+    font-size: 20px;
   }
   
   .container {
@@ -10,7 +15,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 100px 0;
+    padding: 15vh 0;
   }
   
   .container .box {
@@ -268,3 +273,73 @@
     background-color: #ff4040;
     transform: translateY(-2px);
   }
+
+  @media (max-width: 480px) {
+    .modal {
+      width: 70%;
+    }
+
+    .project-page button {
+      font-size: 20px;
+    }
+
+    .modal__title {
+      font-size: 20px;
+    }
+
+    .modal-container p {
+      font-size: 15px;
+    }
+   }
+
+   @media (min-width: 1700px) {
+    .container .box {
+      width: 450px;
+      height: 600px;
+    }
+
+    .container .box::before {
+      width: 60%;
+    }
+
+    .container .box:hover:before {
+      width: calc(80% - 90px);
+      left: 15%;
+    }
+    
+    .container .box .content h2 {
+      font-size: 2em;
+    }
+
+    .container .box:hover span::before {
+      top: -50px;
+      width: 125px;
+      height: 125px;
+    }
+
+    .container .box:hover span::after {
+      bottom: -5px;
+      width: 125px;
+      height: 125px;
+    }
+
+    .container .box .content p { font-size: 1.5em; 
+    }
+
+    .modal {
+      width: 80vw;
+    }
+
+    .modal__btn-close {
+      top: -25%;
+    }
+
+    .modal__title {
+      font-size: 3em;
+    }
+
+    .modal-container p {
+      font-size: 30px;
+    }
+
+   }

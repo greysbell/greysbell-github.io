@@ -86,9 +86,6 @@ const ExperiencePage = () => {
         ))}
       </div>
       </div>
-      <footer className="footer">
-        <p>© 2024 My Portfolio | Designed by Greyston</p>
-      </footer>
     </div>
   );
 };

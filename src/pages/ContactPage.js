@@ -101,6 +101,18 @@ const ContactPage = () => {
       <div className="contact-background">
         <div className="contact-container">
           <div className="contact-screen">
+            <div class="contact-screen-header">
+              <div class="contact-screen-header-left">
+              <div class="contact-screen-header-button close"></div>
+              <div class="contact-screen-header-button maximize"></div>
+              <div class="contact-screen-header-button minimize"></div>
+            </div>
+            <div class="contact-screen-header-right">
+              <div class="contact-screen-header-ellipsis"></div>
+              <div class="contact-screen-header-ellipsis"></div>
+              <div class="contact-screen-header-ellipsis"></div>
+            </div>
+            </div>
             <div className="contact-screen-body">
               <div className="contact-screen-body-item left">
                 <div className="contact-app-title">
@@ -196,9 +208,6 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
-      <footer className="footer">
-        <p>© 2024 My Portfolio | Designed by Greyston</p>
-      </footer>
     </div>
   );
 };

@@ -73,16 +73,10 @@
     color: #000;
   }
   
-  .footer {
-    padding: 20px;
-    text-align: center;
-    color: #888;
-  }
-  
   .hero-section {
     display: flex;
     align-items: center;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 10vh);
     padding: 0 50px;
   }
   
@@ -93,7 +87,7 @@
   }
   
   .hero-text-container {
-    max-width: 600px; 
+    max-width: 40vw;
   }
   
   .hero-text {
@@ -339,7 +333,7 @@
     background-color: transparent;
     width: 250px;
     height: 400px;
-    margin-left:300px;
+    margin-left:20vw;
     perspective: 1000px;
     margin-top: 100px;
     border-radius: 10px;
@@ -490,14 +484,9 @@
     background: crimson;
   }
 
-  @media (max-width: 480px) {
-    .footer {
-      transform: translateY(-30%);
-    }
 
-    .hero-text-container {
-      padding-top: 10%;
-    }
+
+  @media (max-width: 480px) {
 
     .alert-popup {
       width: 80%;
@@ -530,11 +519,79 @@
 
     .flip-card {
       margin: 15px 0px;
-      padding-top: 50px;
+      transform: translateY(30px);
     }
 
     .hero-subtext {
-      font-size: small;
+     display: none;
+    }
+}
+
+  @media (min-width: 1700px) {
+    .flip-card-back {
+      font-size: 18px !important;
+    }
+
+    .bar p {
+      font-size: 12px;
+      padding-top: 10px;
+      padding-left: 10px;
+    }
+    .learn-more {
+      font-size: 1vw;
+    }
+
+    .bar {
+      height: 0.4vw;
+    }
+
+    .ds-skill h6 {
+      font-size: 0.8vw;
+    }
+
+    .button a {
+      font-size: 0.8vw;
+    }
+
+    .ds-skill {
+      margin-top: 60%;
+      width: 300px;
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 65%;
+    }
+
+    .linkedin-logo {
+      width: 25px;
+    }
+
+    .name {
+      top: -100px;
+    }
+
+    .name a {
+      font-size: 1vw;
+    }
+    .ds-top {
+      height: 6vw;
+    }
+
+    .avatar-holder {
+      width: 7vw;
+      height: 7vw;
+    }
+    
+    .flip-card {
+      margin-top: 0;
+      width: 400px;
+      height: 600px;
+     margin-left: 15vw;
+    }
+
+    .hero-text-container {
+      max-width: fit-content;
+      margin-left: 100px;
     }
   }
+  
   

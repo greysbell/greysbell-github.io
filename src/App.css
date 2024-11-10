@@ -4,6 +4,7 @@
 /* Global Styles */
 .hero-content {
   display: flex;
+  width: 100%;
 }
 
 .hero-section-nav {
@@ -16,6 +17,8 @@
   background-image: url('./images/background-image.jpg');
   background-size: cover;
   height: 100%;
+  min-height: 100%;
+  min-height: 100vh;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -28,7 +31,6 @@
 
 .nav-links .active {
   color: #d94f5c; 
-  background: url("./images/line.svg");
 }
 
 .menu {
@@ -58,6 +60,7 @@
   &:hover {
     background: url("./images/line.svg");
     animation: line 1s;
+
   }
 
   &:hover a {
@@ -98,7 +101,7 @@
   text-align: center;
 }
 
-/* Button Styling */
+
 button {
   --border: 3px;
   --slant: 0.4em;
@@ -205,7 +208,7 @@ button:active {
   /* Very small screens adjustments */
 
   .hero {
-    font-size: 28px;
+    font-size: 50px;
   }
 
   .navbar-logo {
@@ -229,5 +232,52 @@ button:active {
   button {
     font-size: 14px;
     padding: 0.1em 0.6em;
+  }
+}
+
+@media (min-width: 1700px) {
+
+  .menu li a {
+    font-size: 1.5vw;
+    transform: translateY(-10px);
+  }
+
+  .menu li {
+    height: 70px;
+    width: 175px;
+
+    &:hover {
+      background-size: 400%;
+      background-position: right 0px bottom 90px; /* Moves it down by 10px */
+    }
+  }
+
+  .hero {
+    font-size: 150px;
+    width: 100%;
+  }
+
+  .hero-content {
+    width: 90vw;
+  }
+
+  .navbar-logo {
+    width: 100px;
+  }
+
+  .hero-container {
+    padding: 80px 0;
+  }
+
+  .nav-links {
+    padding-top:0px;
+    gap: 5vw;
+    padding-left: 0px;
+  }
+
+  button {
+    margin-top: 10%;
+    font-size: 20px;
+    padding: 0.3em 0.6em;
   }
 }
