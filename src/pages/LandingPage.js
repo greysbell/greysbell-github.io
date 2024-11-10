@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import logo from '../images/logo.png';
 import avatar from '../images/avatar.jpeg';
 import linkedIn from '../images/linkedIn-logo.png';
@@ -9,35 +9,13 @@ import './LandingPage.css';
 
 function LandingPage() {
   const [isFlipped, setIsFlipped] = useState(false);
-  const [showAlert, setShowAlert] = useState(false);
 
   const handleCardClick = () => {
     setIsFlipped(!isFlipped);
   };
 
-  const closeAlert = () => {
-    setShowAlert(false);
-    sessionStorage.setItem('alertShown', 'true');
-  };
-
-  useEffect(() => {
-    const alertShown = sessionStorage.getItem('alertShown');
-    if (!alertShown) {
-      setShowAlert(true);
-    }
-  }, []);
-
   return (
     <div className="landing-page">
-      {showAlert && (
-        <div className="alert-popup">
-          <div className="alert-content">
-            <p>For the best experience, please navigate using Google Chrome.</p>
-            <button className="close-btn" onClick={closeAlert}>X</button>
-          </div>
-        </div>
-      )}
-
       <header className="hero-section-nav">
         <nav className="menu">
           <img src={logo} alt="Logo" className="navbar-logo" />
@@ -51,7 +29,7 @@ function LandingPage() {
       </header>
 
       <section className="hero-section">
-      <div className="hero-content">
+        <div className="hero-content">
           <div className="hero-text-container">
             <h2 className="hero glitch layers" data-text="Aim to Inspire."><span>Aim to Inspire.</span></h2>
             <p className="hero-subtext">
