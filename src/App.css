@@ -205,10 +205,10 @@ button:active {
 }
 
 @media (max-width: 480px) {
-  /* Very small screens adjustments */
 
   .hero {
     font-size: 50px;
+    margin-bottom: 5%;
   }
 
   .navbar-logo {
@@ -248,7 +248,7 @@ button:active {
 
     &:hover {
       background-size: 400%;
-      background-position: right 0px bottom 90px; /* Moves it down by 10px */
+      background-position: right 0px bottom 90px;
     }
   }
 

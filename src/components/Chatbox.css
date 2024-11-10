@@ -125,9 +125,10 @@
 }
 
 .close-button {
-position: absolute;
+    display: flex;
+    justify-content: flex-end;
 right: 0;
-margin:0;
+margin-left: 93%;
   background: none;
   border: none;
   --border:none;
@@ -253,14 +254,13 @@ margin:0;
     }
 
     .chat-toggle {
-        bottom: -5vh;
+        bottom: -11vh;
     }
 
     .chat-toggle text {
         font-size: 3vmax;
       }
   }
-
   
 
 

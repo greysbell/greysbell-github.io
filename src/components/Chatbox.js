@@ -42,7 +42,7 @@ const Chatbox = () => {
     setMessage(''); 
   
     try {
-      const response = await fetch('https://greysb.ca/chat', {
+      const response = await fetch('https://server-for-website.onrender.com/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -103,7 +103,17 @@ const Chatbox = () => {
           <svg viewBox="45 60 400 320" xmlns="http://www.w3.org/2000/svg">
             <path
               fill="#fff"
-              d="M 90 210 C 90 180 90 150 90 150 C 150 150 180 150 180 150 C 180 150 300 150 300 150 C 300 150 330 150 390 150 C 390 150 390 180 390 210 C 390 240 390 270 390 270 C 330 270 300 270 300 270 C 300 270 180 270 180 270 C 180 270 150 270 90 270 C 90 270 90 240 90 210"
+              d="M 90 210 
+       C 90 190 90 160 100 160 
+       C 140 160 160 160 180 160 
+       C 180 160 300 160 300 160 
+       C 320 160 340 160 380 160 
+       C 390 160 390 180 390 210 
+       C 390 230 390 250 380 260 
+       C 340 260 320 260 300 260 
+       C 300 260 180 260 180 260 
+       C 160 260 140 260 100 260 
+       C 90 250 90 230 90 210"
               mask="url(#knockout-text)"
             ></path>
             <mask id="knockout-text">

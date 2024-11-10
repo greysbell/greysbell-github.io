@@ -487,6 +487,9 @@
 
 
   @media (max-width: 480px) {
+    .hero-text-container {
+      padding-top: 18vh;
+    }
 
     .alert-popup {
       width: 80%;
@@ -519,7 +522,7 @@
 
     .flip-card {
       margin: 15px 0px;
-      transform: translateY(30px);
+      margin-bottom: 7vh;
     }
 
     .hero-subtext {
